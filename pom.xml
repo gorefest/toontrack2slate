@@ -4,7 +4,7 @@
 
   <groupId>io.crowdcode.tt2ss</groupId>
   <artifactId>toontrack2slate</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>toontrack2slate</name>
@@ -29,6 +29,16 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>io.crowdcode.tt2ss.Toontrack2Slate</mainClass>
+            </manifest>
+          </archive>
         </configuration>
       </plugin>
     </plugins>
