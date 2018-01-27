@@ -1,5 +1,8 @@
 # Ez Drummer to Slate Drums conversion Tool
 
+* also known as : Toontrack to Slate converter
+* also known as : The little bastard i needed to write to make use of the midi pack i purchasedl
+
 ## DISCLAIMER
 
 This nifty little tool is _public domain_. It comes with no warranty. For me it worked perfectly, but I won't take any 
